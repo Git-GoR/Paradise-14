@@ -4,8 +4,8 @@ meta:
   engineVersion: 288.1.0
   forkId: ""
   forkVersion: ""
-  time: 11/05/2026 05:26:03
-  entityCount: 38635
+  time: 11/20/2026 14:35:56
+  entityCount: 38646
 maps:
 - 1
 grids:
@@ -16844,7 +16844,7 @@ entities:
       pos: 20.5,14.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -341701.03
+      secondsUntilStateChange: -347841.97
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -16857,7 +16857,7 @@ entities:
       pos: 19.5,14.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -341699
+      secondsUntilStateChange: -347839.94
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -18628,7 +18628,7 @@ entities:
       - - Medical
     - type: Door
       state: Opening
-      secondsUntilStateChange: -347159.25
+      secondsUntilStateChange: -353300.2
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -18868,7 +18868,7 @@ entities:
       - - BasicSilicon
     - type: Door
       state: Opening
-      secondsUntilStateChange: -162145.95
+      secondsUntilStateChange: -168286.9
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -19491,6 +19491,12 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 36.5,44.5
+    - type: DeviceLinkSource
+      lastSignals:
+        DoorStatus: True
+    - type: Door
+      state: Opening
+      secondsUntilStateChange: -6080.9507
   - uid: 38018
     components:
     - type: Transform
@@ -19536,6 +19542,12 @@ entities:
       parent: 28952
       rot: -1.5707963267948966 rad
       pos: -1.5,2.5
+    - type: DeviceLinkSource
+      lastSignals:
+        DoorStatus: True
+    - type: Door
+      state: Opening
+      secondsUntilStateChange: -6081.317
 - proto: AirlockShuttleAssembly
   entities:
   - uid: 787
@@ -93462,6 +93474,424 @@ entities:
     - type: Transform
       parent: 2
       pos: -37.5,-37.5
+- proto: DefaultStationBeaconAICore
+  entities:
+  - uid: 37257
+    components:
+    - type: Transform
+      parent: 2
+      pos: 29.5,-118.5
+- proto: DefaultStationBeaconAISatellite
+  entities:
+  - uid: 38640
+    components:
+    - type: Transform
+      parent: 2
+      pos: 29.5,-94.5
+- proto: DefaultStationBeaconAIUpload
+  entities:
+  - uid: 38641
+    components:
+    - type: Transform
+      parent: 2
+      pos: 67.5,-43.5
+- proto: DefaultStationBeaconAnchor
+  entities:
+  - uid: 38636
+    components:
+    - type: Transform
+      parent: 2
+      pos: -10.5,-25.5
+- proto: DefaultStationBeaconAnomalyGenerator
+  entities:
+  - uid: 37290
+    components:
+    - type: Transform
+      parent: 2
+      pos: 77.5,-43.5
+- proto: DefaultStationBeaconArmory
+  entities:
+  - uid: 37265
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,47.5
+- proto: DefaultStationBeaconArrivals
+  entities:
+  - uid: 37261
+    components:
+    - type: Transform
+      parent: 2
+      pos: -59.5,-1.5
+- proto: DefaultStationBeaconArtifactLab
+  entities:
+  - uid: 37291
+    components:
+    - type: Transform
+      parent: 2
+      pos: 80.5,-48.5
+- proto: DefaultStationBeaconAtmospherics
+  entities:
+  - uid: 37126
+    components:
+    - type: Transform
+      parent: 2
+      pos: 19.5,-68.5
+- proto: DefaultStationBeaconBar
+  entities:
+  - uid: 37269
+    components:
+    - type: Transform
+      parent: 2
+      pos: 24.5,-6.5
+- proto: DefaultStationBeaconBotany
+  entities:
+  - uid: 37255
+    components:
+    - type: Transform
+      parent: 2
+      pos: 46.5,-6.5
+- proto: DefaultStationBeaconBridge
+  entities:
+  - uid: 37238
+    components:
+    - type: Transform
+      parent: 2
+      pos: -0.5,-13.5
+- proto: DefaultStationBeaconBrig
+  entities:
+  - uid: 37264
+    components:
+    - type: Transform
+      parent: 2
+      pos: -0.5,36.5
+- proto: DefaultStationBeaconCaptainsQuarters
+  entities:
+  - uid: 37260
+    components:
+    - type: Transform
+      parent: 2
+      pos: -11.5,-15.5
+- proto: DefaultStationBeaconCargoBay
+  entities:
+  - uid: 37274
+    components:
+    - type: Transform
+      parent: 2
+      pos: -45.5,-52.5
+- proto: DefaultStationBeaconCargoReception
+  entities:
+  - uid: 37272
+    components:
+    - type: Transform
+      parent: 2
+      pos: -49.5,-37.5
+- proto: DefaultStationBeaconCERoom
+  entities:
+  - uid: 37263
+    components:
+    - type: Transform
+      parent: 2
+      pos: -1.5,-62.5
+- proto: DefaultStationBeaconChapel
+  entities:
+  - uid: 37262
+    components:
+    - type: Transform
+      parent: 2
+      pos: 72.5,-6.5
+- proto: DefaultStationBeaconChemistry
+  entities:
+  - uid: 37280
+    components:
+    - type: Transform
+      parent: 2
+      pos: 20.5,-21.5
+- proto: DefaultStationBeaconCMORoom
+  entities:
+  - uid: 37281
+    components:
+    - type: Transform
+      parent: 2
+      pos: 39.5,-31.5
+- proto: DefaultStationBeaconCourtroom
+  entities:
+  - uid: 37267
+    components:
+    - type: Transform
+      parent: 2
+      pos: -13.5,16.5
+- proto: DefaultStationBeaconCryonics
+  entities:
+  - uid: 37283
+    components:
+    - type: Transform
+      parent: 2
+      pos: 20.5,-35.5
+- proto: DefaultStationBeaconCryosleep
+  entities:
+  - uid: 37295
+    components:
+    - type: Transform
+      parent: 2
+      pos: 26.5,17.5
+- proto: DefaultStationBeaconDetectiveRoom
+  entities:
+  - uid: 37268
+    components:
+    - type: Transform
+      parent: 2
+      pos: 7.5,19.5
+- proto: DefaultStationBeaconDisposals
+  entities:
+  - uid: 25006
+    components:
+    - type: Transform
+      parent: 2
+      pos: -60.5,-28.5
+- proto: DefaultStationBeaconDorms
+  entities:
+  - uid: 37296
+    components:
+    - type: Transform
+      parent: 2
+      pos: 22.5,10.5
+- proto: DefaultStationBeaconEngineering
+  entities:
+  - uid: 37279
+    components:
+    - type: Transform
+      parent: 2
+      pos: 6.5,-53.5
+- proto: DefaultStationBeaconEscapePodNW
+  entities:
+  - uid: 37275
+    components:
+    - type: Transform
+      parent: 2
+      pos: -75.5,14.5
+- proto: DefaultStationBeaconEvac
+  entities:
+  - uid: 37276
+    components:
+    - type: Transform
+      parent: 2
+      pos: 93.5,-13.5
+- proto: DefaultStationBeaconEVAStorage
+  entities:
+  - uid: 37254
+    components:
+    - type: Transform
+      parent: 2
+      pos: -23.5,4.5
+- proto: DefaultStationBeaconGravGen
+  entities:
+  - uid: 37256
+    components:
+    - type: Transform
+      parent: 2
+      pos: -20.5,-70.5
+- proto: DefaultStationBeaconHOPOffice
+  entities:
+  - uid: 37259
+    components:
+    - type: Transform
+      parent: 2
+      pos: 8.5,-23.5
+- proto: DefaultStationBeaconHOSRoom
+  entities:
+  - uid: 37266
+    components:
+    - type: Transform
+      parent: 2
+      pos: 25.5,42.5
+- proto: DefaultStationBeaconJanitorsCloset
+  entities:
+  - uid: 37292
+    components:
+    - type: Transform
+      parent: 2
+      pos: 7.5,11.5
+- proto: DefaultStationBeaconKitchen
+  entities:
+  - uid: 37270
+    components:
+    - type: Transform
+      parent: 2
+      pos: 36.5,-6.5
+- proto: DefaultStationBeaconLibrary
+  entities:
+  - uid: 37302
+    components:
+    - type: Transform
+      parent: 2
+      pos: 60.5,-4.5
+- proto: DefaultStationBeaconMedbay
+  entities:
+  - uid: 38638
+    components:
+    - type: Transform
+      parent: 2
+      pos: 27.5,-33.5
+- proto: DefaultStationBeaconMedical
+  entities:
+  - uid: 38646
+    components:
+    - type: Transform
+      parent: 2
+      pos: 33.5,-31.5
+- proto: DefaultStationBeaconMorgue
+  entities:
+  - uid: 37282
+    components:
+    - type: Transform
+      parent: 2
+      pos: 44.5,-20.5
+- proto: DefaultStationBeaconPermaBrig
+  entities:
+  - uid: 37299
+    components:
+    - type: Transform
+      parent: 2
+      pos: -33.5,37.5
+- proto: DefaultStationBeaconPowerBank
+  entities:
+  - uid: 37278
+    components:
+    - type: Transform
+      parent: 2
+      pos: 9.5,-69.5
+- proto: DefaultStationBeaconPsychology
+  entities:
+  - uid: 38639
+    components:
+    - type: Transform
+      parent: 2
+      pos: 14.5,-35.5
+- proto: DefaultStationBeaconQMRoom
+  entities:
+  - uid: 37271
+    components:
+    - type: Transform
+      parent: 2
+      pos: -52.5,-45.5
+- proto: DefaultStationBeaconRDRoom
+  entities:
+  - uid: 37288
+    components:
+    - type: Transform
+      parent: 2
+      pos: 66.5,-32.5
+- proto: DefaultStationBeaconRND
+  entities:
+  - uid: 37285
+    components:
+    - type: Transform
+      parent: 2
+      pos: 79.5,-20.5
+- proto: DefaultStationBeaconRobotics
+  entities:
+  - uid: 37286
+    components:
+    - type: Transform
+      parent: 2
+      pos: 65.5,-20.5
+- proto: DefaultStationBeaconSalvage
+  entities:
+  - uid: 37273
+    components:
+    - type: Transform
+      parent: 2
+      pos: -67.5,-50.5
+- proto: DefaultStationBeaconSecurityCheckpoint
+  entities:
+  - uid: 38637
+    components:
+    - type: Transform
+      parent: 2
+      pos: -58.5,4.5
+- proto: DefaultStationBeaconServerRoom
+  entities:
+  - uid: 37289
+    components:
+    - type: Transform
+      parent: 2
+      pos: 66.5,-38.5
+- proto: DefaultStationBeaconSingularity
+  entities:
+  - uid: 37158
+    components:
+    - type: Transform
+      parent: 2
+      pos: -0.5,-75.5
+- proto: DefaultStationBeaconSolarsNE
+  entities:
+  - uid: 38644
+    components:
+    - type: Transform
+      parent: 2
+      pos: 52.5,34.5
+- proto: DefaultStationBeaconSolarsNW
+  entities:
+  - uid: 38645
+    components:
+    - type: Transform
+      parent: 2
+      pos: -58.5,32.5
+- proto: DefaultStationBeaconSolarsSE
+  entities:
+  - uid: 38643
+    components:
+    - type: Transform
+      parent: 2
+      pos: 83.5,-95.5
+- proto: DefaultStationBeaconSolarsSW
+  entities:
+  - uid: 37081
+    components:
+    - type: Transform
+      parent: 2
+      pos: -42.5,-79.5
+- proto: DefaultStationBeaconSurgery
+  entities:
+  - uid: 37284
+    components:
+    - type: Transform
+      parent: 2
+      pos: 27.5,-45.5
+- proto: DefaultStationBeaconTelecoms
+  entities:
+  - uid: 37277
+    components:
+    - type: Transform
+      parent: 2
+      pos: 25.5,-94.5
+- proto: DefaultStationBeaconToolRoom
+  entities:
+  - uid: 37297
+    components:
+    - type: Transform
+      parent: 2
+      pos: -41.5,3.5
+  - uid: 38642
+    components:
+    - type: Transform
+      parent: 2
+      pos: -59.5,-15.5
+- proto: DefaultStationBeaconVault
+  entities:
+  - uid: 37303
+    components:
+    - type: Transform
+      parent: 2
+      pos: -31.5,4.5
+- proto: DefaultStationBeaconWardensOffice
+  entities:
+  - uid: 37258
+    components:
+    - type: Transform
+      parent: 2
+      pos: -2.5,41.5
 - proto: DefibrillatorCabinetFilled
   entities:
   - uid: 14446
@@ -170922,11 +171352,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -44.5,-18.5
-  - uid: 25006
-    components:
-    - type: Transform
-      parent: 2
-      pos: -60.5,-27.5
   - uid: 25007
     components:
     - type: Transform
@@ -244028,13 +244453,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -36.5,-37.5
-  - uid: 37081
-    components:
-    - type: MetaData
-      name: Engineering Foyer
-    - type: Transform
-      parent: 2
-      pos: 6.5,-53.5
   - uid: 37082
     components:
     - type: MetaData
@@ -244346,13 +244764,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -12.5,-54.5
-  - uid: 37126
-    components:
-    - type: MetaData
-      name: Atmospherics
-    - type: Transform
-      parent: 2
-      pos: 19.5,-67.5
   - uid: 37127
     components:
     - type: MetaData
@@ -244570,13 +244981,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -14.5,-70.5
-  - uid: 37158
-    components:
-    - type: MetaData
-      name: Engineering SMEs
-    - type: Transform
-      parent: 2
-      pos: 9.5,-69.5
   - uid: 37159
     components:
     - type: MetaData
@@ -245130,13 +245534,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 95.5,-38.5
-  - uid: 37238
-    components:
-    - type: MetaData
-      name: Station Anchor
-    - type: Transform
-      parent: 2
-      pos: -10.5,-25.5
   - uid: 37239
     components:
     - type: MetaData
@@ -245271,237 +245668,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: -6.5,5.5
-  - uid: 37254
-    components:
-    - type: MetaData
-      name: EVA
-    - type: Transform
-      parent: 2
-      pos: -23.5,4.5
-  - uid: 37255
-    components:
-    - type: MetaData
-      name: Botany
-    - type: Transform
-      parent: 2
-      pos: 45.5,-0.5
-  - uid: 37256
-    components:
-    - type: MetaData
-      name: Engineering
-    - type: Transform
-      parent: 2
-      pos: 6.5,-53.5
-  - uid: 37257
-    components:
-    - type: MetaData
-      name: AI Core
-    - type: Transform
-      parent: 2
-      pos: 29.5,-118.5
-  - uid: 37258
-    components:
-    - type: MetaData
-      name: Bridge
-    - type: Transform
-      parent: 2
-      pos: -0.5,-13.5
-  - uid: 37259
-    components:
-    - type: MetaData
-      name: HOP's Office
-    - type: Transform
-      parent: 2
-      pos: 8.5,-23.5
-  - uid: 37260
-    components:
-    - type: MetaData
-      name: Captain's Office
-    - type: Transform
-      parent: 2
-      pos: -11.5,-15.5
-  - uid: 37261
-    components:
-    - type: MetaData
-      name: Arrivals
-    - type: Transform
-      parent: 2
-      pos: -59.5,-1.5
-  - uid: 37262
-    components:
-    - type: MetaData
-      name: Chapel
-    - type: Transform
-      parent: 2
-      pos: 72.5,-6.5
-  - uid: 37263
-    components:
-    - type: MetaData
-      name: Gravity Generator
-    - type: Transform
-      parent: 2
-      pos: -20.5,-70.5
-  - uid: 37264
-    components:
-    - type: MetaData
-      name: Brig
-    - type: Transform
-      parent: 2
-      pos: -0.5,36.5
-  - uid: 37265
-    components:
-    - type: MetaData
-      name: Armory
-    - type: Transform
-      parent: 2
-      pos: 1.5,47.5
-  - uid: 37266
-    components:
-    - type: MetaData
-      name: HOS's Office
-    - type: Transform
-      parent: 2
-      pos: 25.5,42.5
-  - uid: 37267
-    components:
-    - type: MetaData
-      name: Courtroom
-    - type: Transform
-      parent: 2
-      pos: -12.5,16.5
-  - uid: 37268
-    components:
-    - type: MetaData
-      name: Detective
-    - type: Transform
-      parent: 2
-      pos: 7.5,19.5
-  - uid: 37269
-    components:
-    - type: MetaData
-      name: Bar
-    - type: Transform
-      parent: 2
-      pos: 24.5,-6.5
-  - uid: 37270
-    components:
-    - type: MetaData
-      name: Kitchen
-    - type: Transform
-      parent: 2
-      pos: 36.5,-6.5
-  - uid: 37271
-    components:
-    - type: MetaData
-      name: QM's Office
-    - type: Transform
-      parent: 2
-      pos: -52.5,-45.5
-  - uid: 37272
-    components:
-    - type: MetaData
-      name: Cargo
-    - type: Transform
-      parent: 2
-      pos: -49.5,-38.5
-  - uid: 37273
-    components:
-    - type: MetaData
-      name: Salvage Dock
-    - type: Transform
-      parent: 2
-      pos: -67.5,-50.5
-  - uid: 37274
-    components:
-    - type: MetaData
-      name: Cargo Bay
-    - type: Transform
-      parent: 2
-      pos: -45.5,-51.5
-  - uid: 37275
-    components:
-    - type: MetaData
-      name: Disposals
-    - type: Transform
-      parent: 2
-      pos: -59.5,-28.5
-  - uid: 37276
-    components:
-    - type: MetaData
-      name: Departures
-    - type: Transform
-      parent: 2
-      pos: 93.5,-13.5
-  - uid: 37277
-    components:
-    - type: MetaData
-      name: Telecoms
-    - type: Transform
-      parent: 2
-      pos: 25.5,-94.5
-  - uid: 37278
-    components:
-    - type: MetaData
-      name: CE's Office
-    - type: Transform
-      parent: 2
-      pos: -1.5,-62.5
-  - uid: 37279
-    components:
-    - type: MetaData
-      name: Atmospherics
-    - type: Transform
-      parent: 2
-      pos: 19.5,-67.5
-  - uid: 37280
-    components:
-    - type: MetaData
-      name: Chemistry
-    - type: Transform
-      parent: 2
-      pos: 20.5,-21.5
-  - uid: 37281
-    components:
-    - type: MetaData
-      name: CMO's Office
-    - type: Transform
-      parent: 2
-      pos: 39.5,-31.5
-  - uid: 37282
-    components:
-    - type: MetaData
-      name: Morgue
-    - type: Transform
-      parent: 2
-      pos: 45.5,-20.5
-  - uid: 37283
-    components:
-    - type: MetaData
-      name: Medbay
-    - type: Transform
-      parent: 2
-      pos: 27.5,-33.5
-  - uid: 37284
-    components:
-    - type: MetaData
-      name: Cloning
-    - type: Transform
-      parent: 2
-      pos: 33.5,-31.5
-  - uid: 37285
-    components:
-    - type: MetaData
-      name: Operating Rooms
-    - type: Transform
-      parent: 2
-      pos: 27.5,-45.5
-  - uid: 37286
-    components:
-    - type: MetaData
-      name: RND
-    - type: Transform
-      parent: 2
-      pos: 79.5,-18.5
   - uid: 37287
     components:
     - type: MetaData
@@ -245509,41 +245675,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 49.5,-38.5
-  - uid: 37288
-    components:
-    - type: MetaData
-      name: Robotics
-    - type: Transform
-      parent: 2
-      pos: 64.5,-20.5
-  - uid: 37289
-    components:
-    - type: MetaData
-      name: RD's Office
-    - type: Transform
-      parent: 2
-      pos: 66.5,-32.5
-  - uid: 37290
-    components:
-    - type: MetaData
-      name: Server Room
-    - type: Transform
-      parent: 2
-      pos: 66.5,-38.5
-  - uid: 37291
-    components:
-    - type: MetaData
-      name: Anomaly Research Lab
-    - type: Transform
-      parent: 2
-      pos: 77.5,-43.5
-  - uid: 37292
-    components:
-    - type: MetaData
-      name: Artifact Testing Lab
-    - type: Transform
-      parent: 2
-      pos: 79.5,-48.5
   - uid: 37293
     components:
     - type: MetaData
@@ -245558,30 +245689,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 90.5,-37.5
-  - uid: 37295
-    components:
-    - type: MetaData
-      name: Janitor's Office
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 7.5,11.5
-  - uid: 37296
-    components:
-    - type: MetaData
-      name: Cryodorms
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 26.5,17.5
-  - uid: 37297
-    components:
-    - type: MetaData
-      name: Dorms
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 21.5,10.5
   - uid: 37298
     components:
     - type: MetaData
@@ -245590,14 +245697,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 34.5,41.5
-  - uid: 37299
-    components:
-    - type: MetaData
-      name: Prison
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: -32.5,35.5
   - uid: 37300
     components:
     - type: MetaData
@@ -245614,22 +245713,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: -42.5,-6.5
-  - uid: 37302
-    components:
-    - type: MetaData
-      name: Tool Storage
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: -41.5,3.5
-  - uid: 37303
-    components:
-    - type: MetaData
-      name: Vault
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: -31.5,4.5
 - proto: WashingMachine
   entities:
   - uid: 37304
